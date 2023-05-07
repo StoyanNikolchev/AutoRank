@@ -3,6 +3,7 @@ package me.nikolchev98.autorank.listeners;
 import com.bencodez.votingplugin.events.PlayerPostVoteEvent;
 import com.bencodez.votingplugin.topvoter.TopVoter;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
@@ -65,7 +66,7 @@ public class VoteListener implements Listener {
     }
 
     private void announcePromotion(String name, String rank) {
-        Bukkit.broadcastMessage(name + " was promoted to " + rank + "!");
+        Bukkit.broadcastMessage(ChatColor.GOLD + name + ChatColor.DARK_GREEN + " was promoted to " + ChatColor.GOLD + rank + "!");
     }
 
 
