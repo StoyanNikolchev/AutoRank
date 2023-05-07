@@ -1,0 +1,5 @@
+name: AutoRank
+version: '${project.version}'
+main: me.nikolchev98.autorank.AutoRank
+api-version: 1.19
+depend: [VotingPlugin, PermissionsEx]

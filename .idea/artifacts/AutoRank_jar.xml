@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AutoRank:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AutoRank_jar</output-path>
+    <root id="archive" name="AutoRank.jar">
+      <element id="module-output" name="AutoRank" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/PermissionsEx-1.23.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/VotingPlugin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
